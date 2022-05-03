@@ -1,0 +1,299 @@
+  </style>
+
+    <body>
+
+        <div id="colorBox" style="background-color: rgb(252, 194, 3) ; padding:0px; border: 1px solid rgb(252, 194, 3); margin: 5px 200px;">
+
+            <p><b>Enter Payment Information...</b></p>
+
+        </div>
+
+        <div class="header">
+
+        <input type="radio" name="card" class="radio" required><b>Credit Card</b>
+
+        <img src="visa.png" class="visa">
+
+        <img src="americanEX.png" class="americanEx">
+
+        <img src="mastercard.png" class="mastercard">
+
+        <img src="diners.png" class="diners">
+
+        <img src="discover.png" class="discover">
+
+        <br><br>
+
+        <input type="radio" name="card" class="radio" required> <b>Paypal</b>
+
+        <img src="paypal.png" class="paypal"> <label class="hype-link"><u>More Info</u></label>
+
+         </div>
+
+        <br><br>
+
+        <form>
+
+            <fieldset> 
+
+                <legend>Card Holder Information</legend>
+
+                <table>
+
+                    <tr><td>
+
+                        <label><b>Credit Card:</b></label><br>
+
+                            <select class="box-wdth" required>
+
+                              <option>Visa</option>
+
+                              <option>MasterCard</option>
+
+                              <option>American Express</option>
+
+                              <option>Express club</option>
+
+                              <option>Discover</option>
+
+                            </select>
+
+                        </td>
+
+ 
+
+                            <td>
+
+                                <label><b>Number:</b></label><br>
+
+                                <input type="text" required>
+
+                            </td>
+
+                            <td>
+
+                                <label><b>Expiration Date:</b></label><br>
+
+                                <input type="number">
+
+                                <input type="month">
+
+                            </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label><b>First Name:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                        <td>
+
+                            <label><b>Last Name:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <label><b>Address:</b></label><br>
+
+                            <input type="text" required><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr >
+
+                        <td>
+
+                            <label><b>City:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row-opac">
+
+                        <td>
+
+                            <label><b>City:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row-opac">
+
+                        <td>
+
+                            <label><b>City:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row-opac">
+
+                        <td>
+
+                            <label><b>City:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row-opac">
+
+                        <td>
+
+                            <label><b>City:</b></label><br>
+
+                            <input type="text" required>
+
+                        </td>
+
+                    </tr>
+
+                    <td>
+
+                        <fieldset style="margin-right: 60%;position: absolute; left: 25px; top: 410px;">
+
+                            <legend>if inside the U.S.</legend>
+
+                          
+
+                                       <label><b>State:</b></label><br>
+
+                                       <select required>
+
+                                        <option>Carlifornia</option>
+
+                                        <option>Oklahoma</option>
+
+                                        <option>New York</option>
+
+                                        <option>Ohio</option>
+
+                                        <option>Colorado</option>
+
+                                        <option>Texas</option>
+
+                                      </select><br>
+
+                                      <label><b>Zip Code:</b></label><br>
+
+                                      <input type="text" class="box-wdth"> -
+
+                                      <input type="text" class="box-wdth">
+
+                        </fieldset>
+
+                    </td>
+
+                    <td>
+
+                        <fieldset style="margin-right: 60%;position: absolute; left: 480px; top: 410px;">
+
+                            <legend>if outside the U.S.</legend>
+
+                          
+
+                                       <label><b>State/Province/Region</b></label><br>
+
+                                      <input type="text"><br>
+
+                                      <label><b>Postal Code:</b></label><br>
+
+                                      <input type="text" class="box-wdth">
+
+                        </fieldset>
+
+                    </td>
+
+                    <div>
+
+                    <tr>
+
+                        <td>
+
+                            <label><b>Country:</b></label><br>
+
+                            <select required>
+
+                                <option>UNITED STATES OF AMERICA - (USA)</option>
+
+                                <option>GERMANY</option>
+
+                                <option>ITALY</option>
+
+                                <option>SPAIN</option>
+
+                                <option>CANADA</option>
+
+                                <option>GHANA</option>
+
+                                <option>FRANCE</option>
+
+                                <option>TOGO</option>
+
+                                <option>NIGERIA</option>
+
+                                <option>DENMARK</option>
+
+                                <option>DUBAI</option>
+
+                              </select><br>
+
+                        </td>
+
+                    </tr>
+
+                </div>
+
+                    <tr>
+
+                        <td>
+
+                            <label><b>Address Type:</b></label><br>
+
+                            <input type="radio" name="address" class="radio" required>Home
+
+                            <input type="radio" name="address" class="radio" required>Business
+
+                            <input type="radio" name="address" class="radio" required>Other
+
+                        </td>
+
+                    </tr>
+
+                   </table>
+
+            </fieldset>
+
+        </form>
+
+    </body>
+
+</html>
